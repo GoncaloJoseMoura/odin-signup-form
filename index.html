@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./scripts.js"></script>
+</head>
+<body>
+    <div class="left-panel">
+        <div class="card-body">
+            <img class="card-image" src="./assets/odin-lined.png" alt="odin project logo">
+            <h1 class="card-heading">ODIN</h1>
+        </div>
+        <footer>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></footer>
+    </div>
+    <div class="right-panel">
+        <div>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="card-form">
+            <div>
+                <p>Let's do this!</p>
+            
+                <form action="" method="get">
+
+                    <div>
+                            <label for="first_name">FIRST NAME<span aria-label="required"> *</span></label><br>
+                            <input type="text" id="first_name"  placeholder="Thor" required><br>
+
+                            <label for="email">EMAIL<span aria-label="required"> *</span></label><br>
+                            <input type="email" id="email" placeholder="GodOfThunder@asgard.com" required><br>
+
+                            <label for="password">PASSWORD<span aria-label="required"> *</span></label><br>
+                            <input type="password" id="password" required>
+                            <span id="message"></span>
+                    </div>
+
+                    <div>
+                        <label for="last_name">LAST NAME</label><br>
+                        <input type="text" id="last_name" placeholder="Odinson" ><br>
+
+                        <label for="phone">PHONE NUMBER</label><br>
+                        <input type="tel" id="phone"><br>
+
+                        <label for="c_password">CONFIRM PASSWORD<span aria-label="required"> *</span></label><br>
+                        <input type="password" id="c_password" required><br>                        
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <button type="button">Create Account</button>
+        <p>Already have an account? <a class='login' href="#">Log in</a></p>
+
+    </div>
+</body>
+</html>
