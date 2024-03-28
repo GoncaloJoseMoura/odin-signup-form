@@ -128,10 +128,6 @@ body {
                         font-size: 0.95rem;
                     }
 
-                    /* input#password:required:invalid{
-                        border-color: red;
-                      } */
-
                 }
             }
         }
@@ -161,6 +157,5 @@ body {
         color: #596d49;
         text-decoration: none;
     }
-
 
 }
